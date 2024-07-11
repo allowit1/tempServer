@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery List</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="/static/script.js"></script>
+
+</head>
+<body>
+    <div id="app">
+        <h1>Grocery List</h1>
+        <div class="input-group">
+            <input type="text" id="itemName" placeholder="Item Name">
+            <input type="number" id="itemQuantity" placeholder="Quantity">
+            <button onclick="addItem()">Add Item</button>
+        </div>
+        <div id="message"></div>
+        <ul id="itemList"></ul>
+    </div>
+</body>
+</html>
